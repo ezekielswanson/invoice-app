@@ -1,0 +1,50 @@
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+}
+
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background: #1C1C1C;
+    margin: 0 auto;
+    padding: 100px 0px;
+    width: 550px;
+    height: auto;
+
+}
+
+.invoice-container .invoice-header {
+    background: #3A69D2;
+    padding: 60px 98px;
+    text-align: center;
+    color: #FFF;
+    font-style: normal;
+}
+
+.invoice-container .invoice-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -0.8px;
+    margin-bottom: 9px;
+}
+
+
+.invoice-container .invoice-header p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+
+.invoice-body {
+    background: #1F2937;
+    padding-bottom: 50px;
+}
