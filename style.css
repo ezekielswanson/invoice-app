@@ -20,6 +20,23 @@ body {
 
 }
 
+
+
+/* Removing default styles for btns */
+
+ button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none; /* For Safari and Chrome */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; /* Standard syntax */
+}
+
+
+
 .invoice-container .invoice-header {
     background: #3A69D2;
     padding: 60px 98px;
@@ -51,8 +68,7 @@ body {
 }
 
 /* Remove default styles for input and button */
-.invoice-form input,
-.invoice-form button {
+.invoice-form input  {
     border: none;
     outline: none;
     background: none;
@@ -129,7 +145,7 @@ body {
 .invoice-tasks__display .invoice-tasks__display-titles {
     display: flex;
     justify-content: space-between;
-    margin-top: 47px;
+    margin: 47px 0px 19px;
     color: #D5D4D8;
     font-size: 12px;
     font-style: normal;
@@ -138,4 +154,69 @@ body {
 }
 
 
+
+
+/*  Task Items Right */
+.invoice-tasks__display .invoice-tasks__display-row {
+    display: flex;
+    justify-content: row;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.invoice-tasks__display .invoice-tasks__display-row p {
+    color: #F5F5F5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 100% */
+}
+
+
+
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__left {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__left button {
+    color: #D5D4D8;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 250% */
+}
+
+/* End Task Items Right */
+
+
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__right {
+    display: flex;
+    align-items: center;
+}
+
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__right span, 
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__right p {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 83.333% */
+}
+
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__right p {
+    color: #F5F5F5;
+}
+
+.invoice-tasks__display .invoice-tasks__display-row .invoice-tasks__display-row__right span {
+    color: #918E9B;
+}
+
+
 /* End Task Items display */
+
+
