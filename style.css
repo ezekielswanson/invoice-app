@@ -217,6 +217,41 @@ body {
 }
 
 
+.invoice-tasks__display .invoice-tasks__display-divider {
+    width: 471px;
+    height: 1px;
+    margin: 27px 0px 15px;
+    background: #C3C6DB;
+}
+
 /* End Task Items display */
 
 
+
+
+
+
+/*** Invoice Summary Items ***/
+
+.invoice-tasks__display--summary .invoice-tasks__display-row.summary .invoice-tasks__display-row__left p {
+    color: #F5F5F5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 125% */
+}
+
+
+.invoice-tasks__display--summary .invoice-tasks__display-row.summary .invoice-tasks__display-row__right p,
+.invoice-tasks__display--summary .invoice-tasks__display-row.summary span {
+    color: #F5F5F5;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 88.889% */
+}
+
+
+
+
+/*** End Invoice Summary Items ***/
